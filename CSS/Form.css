@@ -1,0 +1,128 @@
+
+@media screen and (max-width: 600px) { 
+    table#cart tbody td .form-control { 
+    width:20%; 
+    display: inline !important;
+    } 
+     
+    .actions .btn { 
+    width:36%; 
+    margin:1.5em 0;
+    } 
+     
+    .actions .btn-info { 
+    float:left;
+    } 
+     
+    .actions .btn-danger { 
+    float:right;
+    } 
+     
+    table#cart thead {
+    display: none;
+    } 
+     
+    table#cart tbody td {
+    display: block;
+    padding: .6rem;
+    min-width:320px;
+    } 
+     
+    table#cart tbody tr td:first-child {
+    background: #333;
+    color: #fff;
+    } 
+     
+    table#cart tbody td:before { 
+    content: attr(data-th);
+    font-weight: bold; 
+    display: inline-block;
+    width: 8rem;
+    } 
+     
+    table#cart tfoot td {
+    display:block;
+    } 
+    table#cart tfoot td .btn {
+    display:block;
+    }
+    }
+
+    .img-responsive{
+        max-width: 115px;
+        height: auto;
+    }
+
+    .head {
+        border-bottom: 1px solid rgb(131, 131, 131);
+        box-shadow: 0 0 4px 0 ;
+    }
+    .navbar-brand{
+        margin-left: 30px;
+        margin-right: 150px;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 5px;
+        font-size: 27px;
+        font-family: sans-serif;  
+    }
+    .navbar-brand3{
+        cursor: pointer;
+        font-family: sans-serif;
+    }
+    ul{
+        margin: auto;
+    }
+    li{
+        font-size: 22px;
+        margin-right: 7px;
+    }
+    .d-flex input {
+        border-radius: 12px;
+    }
+    .d-flex button {
+        color: black;
+        border-color: rgb(185, 185, 185);
+        border-radius: 12px;
+    }
+    .d-flex button:hover {
+        color: white;
+        background-color: lightseagreen;
+    }
+    .row-md{
+        margin-left: 20%;
+    }
+
+    .row{
+        margin-bottom: 25px;
+       
+    }
+    
+    .navbar-brand3{
+        font-size: 27px;
+    }
+
+    #Daihoc{
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+    #Daihoc a{
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    .login-main{
+        width:100%;
+        display: flex;
+        justify-content: center;
+    }
+    #login{
+        width:200px;
+        height:50px;
+    }
+    .login-main a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .login-main a:hover{
+        color:#fff;
+        text-decoration: none;
+    }

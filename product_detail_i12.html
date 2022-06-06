@@ -1,0 +1,316 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>The gioi dien thoai</title>
+  <link rel="stylesheet" href="./CSS/main_web.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/f67197206b.js" crossorigin="anonymous"></script>
+  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet'>
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'>
+  <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <link href="./CSS/product_detail.css" rel="stylesheet" type="text/css">
+</head>
+
+<body className='snippet-body'>
+  <!-- HEADER -->
+
+  <div class="header-interface">
+    <div class="header">
+      <div class="logo">Thegioidienthoai</div>
+      <div class="search-main">
+        <input id="search-bar" type="text" placeholder="Nhập tên điện thoại, máy tính,phụ kiện,...cần tìm">
+        <div id="search-button">
+          <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+      <div class="menu-cartshop">
+        <div class="menu-icons">
+          <i id="menu-icons-sub" class="fa-solid fa-clipboard-list"></i>
+          <i id="menu-icons-sub" class="fa-solid fa-cart-shopping"></i>
+        </div>
+        <div class="menu-caption">
+          <ul>
+            <li><a href="./gioithieu.html">Thông tin</a></li>
+            <li><a href="./gio_hang.html">Giỏ hàng</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- MENU DƯỚI HEADER -->
+
+  <div class="product-menu-interface">
+    <div class="product-menu">
+      <ul>
+        <li>
+          <a href="./Main_Web.html">
+            <ion-icon name="home-outline"></ion-icon>Trang chủ
+          </a>
+        </li>
+        <li>
+          <a href="./product_introduction_page.html">
+            <ion-icon name="grid-outline"></ion-icon>Sản phẩm
+          </a>
+        </li>
+        <li>
+          <a href="./gioithieu.html">
+            <ion-icon name="clipboard-outline"></ion-icon>Giới thiệu
+          </a>
+        </li>
+        <li class="commercial_product"><a href="#">
+            <ion-icon id="phone" name="phone-portrait-outline"></ion-icon>Điện thoại
+          </a></li>
+        <li>
+          <a href="./form.html">
+            <ion-icon name="log-in-outline"></ion-icon>Đăng nhập
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- content -->
+  <div class="container mt-5 mb-5">
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-10">
+        <div class="card">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="images p-3">
+                <div class="text-center p-4">
+                  <img id="main-image" src="./IMG/box-iphone-12-pro-vang-dong.jpg" />
+                </div>
+                <div class="thumbnail text-center">
+                  <img onclick="change_image(this)" class="sub-image" src="./IMG/box-iphone-12-pro-vang-dong.jpg">
+                  <img onclick="change_image(this)" class="sub-image" src="./IMG/12pro_black.jpg">
+                  <img onclick="change_image(this)" class="sub-image" src="./IMG/12pro_pacific_blue.jpg">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="product p-4">
+                <div class="mt-4 mb-3">
+                  <span class="text-uppercase text-muted brand">Điện thoại</span>
+                  <h5 class="text-uppercase">iPhone 12 Pro Max 128GB Quốc Tế</h5>
+                  <div class="rating">
+                    <div class="stars">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star text-muted"></span>
+                      <span class="fa fa-star text-muted"></span>
+                      <span class="review-no">54 reviews</span>
+                    </div>
+                  </div>
+                  <div class="price d-flex flex-row align-items-center">
+                    <span class="act-price">23.990.000đ</span>
+                    <div class="ml-2">
+                      <small class="dis-price">36.990.000đ</small>
+                    </div>
+                  </div>
+                </div>
+                <table class="table table-sm">
+                  <tr>
+                    <th scope="row">Màn hình</th>
+                    <td scope="row">6.7 inch, OLED, Super Retina XDR, 2778 x 1284 Pixels</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Camera sau</th>
+                    <td>12.0 MP + 12.0 MP + 12.0 MP</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Camera Selfie</th>
+                    <td>12.0 MP</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">RAM</th>
+                    <td>6 GB</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Bộ nhớ trong</th>
+                    <td>128 GB</td>
+                  </tr>
+                </table>
+                <div class="sizes mt-5">
+                  <h6 class="text-uppercase">Màu</h6>
+                  <label class="radio">
+                    <input type="radio" name="size" value="pink" checked>
+                    <span>Vàng đồng</span>
+                  </label>
+                  <label class="radio">
+                    <input type="radio" name="size" value="blue">
+                    <span>Xanh dương</span>
+                  </label>
+                  <label class="radio">
+                    <input type="radio" name="size" value="green">
+                    <span>Đen</span>
+                  </label>
+                </div>
+                <div class="cart mt-4 align-items-center">
+                  <button class="btn btn-danger text-uppercase mr-2 px-4">
+                    Thêm vào giỏ hàng
+                  </button>
+                  <button class="btn btn-danger text-uppercase mr-2 px-4">
+                    Mua ngay
+                  </button>
+                  <div class="item-shared">
+                    <a href="./gio_hang.html" id="cart_page">
+                      <i class="fa fa-shopping-cart text-muted"></i>
+                    </a>
+                    <a href="./test1.html" id="reload_page">
+                      <i class="fa fa-heart text-muted"></i>
+                    </a>
+                    <a href="https://www.facebook.com/" id="fb">
+                      <i class="fa fa-facebook text-muted"></i>
+                    </a>
+                    <a href="./test1.html" id="reload_page">
+                      <i class="fa fa-share-alt text-muted"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-light">
+
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Kết nối cùng với chúng tôi:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="./gio_hang.html" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="./gio_hang.html" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="./gio_hang.html" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="./gio_hang.html" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="./gio_hang.html" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="./gio_hang.html" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Đồ Án
+            </h6>
+            <p>
+              Bài tập lớn môn Thiết kế Web HK2 (2021-2022)
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Nội Dung
+            </h6>
+            <p>
+              <a href="Main_Web.html" class="text-decoration-none text-reset">Trang Chủ</a>
+            </p>
+            <p>
+              <a href="./product_introduction_page.html" class="text-decoration-none text-reset">Danh mục sản phẩm</a>
+            </p>
+            <p>
+              <a href="./form.html" class="text-decoration-none text-reset">Sign Up</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Members
+            </h6>
+            <p>
+              <a href="#" class="text-decoration-none text-reset">Hoàng Văn Chính</a>
+            </p>
+            <p>
+              <a href="#" class="text-decoration-none text-reset">Nguyễn Trần Anh Thư</a>
+            </p>
+            <p>
+              <a href="#" class="text-decoration-none text-reset">Tất Huy Quyền</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Contact
+            </h6>
+            <p><i class="fas fa-home me-3"></i>Tân Phú, Hồ Chí Minh, Việt Nam</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              Thegioidienthoai@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> 1800 937 584</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" id="Daihoc">
+      Trường Đại học Công nghiệp Thực Phẩm TP.HCM:
+      <a class="text-reset fw-bold" href="https://hufi.edu.vn">hufi.edu.vn</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+  </div>
+  <script type='text/javascript'
+    src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js'></script>
+  <script type='text/javascript' src='#'></script>
+  <script type='text/javascript' src='#'></script>
+  <script type='text/javascript'>function change_image(image) {
+      var container = document.getElementById("main-image");
+      container.src = image.src;
+    }
+    document.addEventListener("DOMContentLoaded", function (event) { });</script>
+  <script type='text/javascript'>
+    var myLink = document.querySelector('a[href="#"]');
+    myLink.addEventListener('click', function (e) {
+      e.preventDefault();
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/main_web.css">
+    <script src="https://kit.fontawesome.com/f67197206b.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"> </script>
+    <script nomodule src="https: // unkg .com / ionicons @ 5.5.2 / dist / ionicons / ionicons.js "> </script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+
+    <div class="header-interface">
+        <div class="header">
+            <div class="logo">Thegioidienthoai</div>
+            <div class="search-main">
+                <input id="search-bar" type="text" placeholder="Nhập tên điện thoại, máy tính,phụ kiện,...cần tìm">
+                <div id="search-button">
+                    <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="menu-cartshop">
+                <div class="menu-icons">
+                    <i id="menu-icons-sub" class="fa-solid fa-clipboard-list"></i>
+                    <i id="menu-icons-sub" class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="menu-caption">
+                    <ul>
+                        <li><a href="./gioithieu.html">Thông tin</a></li>
+                        <li><a href="./gio_hang.html">Giỏ hàng</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MENU DƯỚI HEADER -->
+
+    <div class="product-menu-interface">
+        <div class="product-menu">
+            <ul>
+                <li>
+                    <a href="./Main_Web.html">
+                        <ion-icon name="home-outline"></ion-icon>Trang chủ
+                    </a>
+                </li>
+                <li>
+                    <a href="./product_introduction_page.html"><ion-icon name="grid-outline"></ion-icon>Sản phẩm</a>
+                    <ul class="sub-menu">
+                        <li><a href="./product_detail_i13.html">Iphone 13 Pro Max 128GB</a></li>
+                        <li><a href="./product_detail_i12.html">iPhone 12 Pro Max 128GB</a></li>
+                        <li><a href="./product_detail_ixs.html">iPhone Xs Max 64GB</a></li>
+                        <li><a href="./product_detail_galaxytab.html">Galaxy Tab S7</a></li>
+                        <li><a href="./product_detail_aws6.html">Apple Watch Series 6</a></li>
+                        <!-- <li><a href="./product_detail_s21.html">Samsung Galaxy S21 Ultra</a></li>
+                        <li><a href="./product_detail_i8plus.html">iPhone 8 Plus</a></li>
+                        <li><a href="./product_detail_ipad.html">iPad Air 10.9 2020</a></li> -->
+                    </ul>
+                </li>
+                <li>
+                    <a href="./gioithieu.html"><ion-icon name="clipboard-outline"></ion-icon>Giới thiệu</a>
+                </li>
+                <li class="commercial_product"><a href="#">
+                        <ion-icon id="phone" name="phone-portrait-outline"></ion-icon>Điện thoại
+                    </a></li>
+                <li>
+                    <a href="./form.html"><ion-icon name="log-in-outline"></ion-icon>Đăng nhập</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- BANNER GIẢM GIÁ  -->
+
+    <div class="banner-interface">
+        <div class="banner">
+            <img class="banner-sub" src="IMG/seagame-title.webp">
+        </div>
+    </div>
+
+    <!-- CAROUSEL -->
+
+    <div class="banner-selection-interface">
+        <div class="banner-selection">
+            <div class="banner-left">
+                <div class="banner-carousel">
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="5000">
+                                <img src="./IMG/banner_vivo_v.jpg" id="banner-1" class="d-block w-100"
+                                    alt="Vivo Dòng Y giá chỉ từ 1.500.000Đ">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="./IMG/banner-laptop.jpg" id="banner-2" class="d-block w-100"
+                                    alt="Lapptop dành cho sinh viên">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./IMG/banner_chay.jpg" id="banner-3" class="d-block w-100"
+                                    alt="Tuần lễ vàng với nhiều ưu đãi">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="banner-menu">
+                    <ul>
+                        <li><a href="#">Điện thoại Vivo giá hấp dẫn từ 1.500.000đ</a></li>
+                        <li><a href="#">Laptop Lenovo IdeaPad S340</a></li>
+                        <li><a href="#">Tuần lễ sale vàng ưu đãi</a></li>
+                        <li><a href="#">Laptop sốc mùa seagame</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="banner-right">
+                <div class="two-img">
+                    <img id="sumsung1" src="./IMG/samsung.jpg">
+                    <img id="sumsung2" src="./IMG/banner_xiaomi.jpg">
+                </div>
+                <div class="voucher">
+                    <div class="header-vocher">
+                        <p id="title-infor">Thông tin nổi bật</p>
+                        <a href="#">Xem tất cả</a>
+                    </div>
+                    <div class="logo-vocher">
+
+                        <div class="logo-mi1"><img id="logo-mi" src="IMG/mi-icon-10.jpg"></div>
+                        <div class="title-mi"><a href="#">Tuần lễ Xiaomi giảm sốc đến 40%</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="box-selection-interface">
+        <div class="box-selection">
+            <div class="box-top">
+                <div class="box-elements">
+                    <div class="box-radius">
+                        <img id="box-phone" src="./IMG/box-phone.jpg">
+                    </div>
+                    <div class="name-production">Điện thoại</div>
+                </div>
+                <div class="box-elements">
+                    <div class="box-radius"><img id="box-laptop" src="./IMG/box-laptop.jpg">
+                    </div>
+                    <div class="name-production">Laptop</div>
+                </div>
+
+                <div class="box-elements">
+                    <div class="box-radius"><img id="box-pc-components" src="./IMG/box-pc-components.jpg">
+                    </div>
+                    <div class="name-production">Pc-linh kiện</div>
+
+                </div>
+                <div class="box-elements">
+                    <div class="box-radius"><img id="box-tablet" src="./IMG/box-tablet.jpg">
+                    </div>
+                    <div class="name-production">Máy tính bảng</div>
+                </div>
+            </div>
+            <div class="box-bottom">
+                <div class="box-elements">
+                    <div class="box-radius"><img id="box-apple" src="./IMG/box-apple.jpg">
+                    </div>
+                    <div class="name-production">Apple</div>
+                </div>
+                <div class="box-elements">
+                    <div class="box-radius"><img id="box-samsung" src="./IMG/box-samsung.jpeg">
+                    </div>
+                    <div class="name-production">Samsung</div>
+                </div>
+                <div class="box-elements">
+                    <div class="box-radius"><img id="box-apple-watch" src="./IMG/box-apple-watch.jpg">
+                    </div>
+                    <div class="name-production">Đồng hồ thông minh</div>
+                </div>
+                <div class="box-elements">
+                    <div class="box-radius"><img id="box-phone-old" src="./IMG/box-phone-old.jpg">
+                    </div>
+                    <div class="name-production">Máy cũ</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="banner-main-2-interface">
+        <div class="banner-main-2">
+            <img id="banner-main-2-sub" src="./IMG/dacquyen_H7- 1200x100.webp">
+        </div>
+    </div>
+
+    <div class="carousel-installer-interface">
+        <div class="carousel-installer">
+            <div class="carousel-installer-header">
+                <h3 id="carousel-installer-document"><i class="fa-light fa-fire"></i>Khuyến mãi hot</h3>
+            </div>
+            <div class="carousel-installer-sub">
+
+                <!-- 1 -->
+                <div class="carousel-installer-sub-block-main">
+                    <div class="carousel-installer-sub-block">
+                        <div class="block-img-main">
+                            <img id="block-img" src="IMG/box-phone.jpg">
+                        </div>
+                        <div class="block-product-main">
+                            <div class="block-product">
+                                <a id="block-name_product">Iphone 13 Pro Max 128GB</a>
+                            </div>
+
+                            <!-- Giá thành -->
+                            <div class="block-price-main">
+                                <div class="block-price-progress">
+                                    <p id="block-progress">30.490.000đ</p>
+                                </div>
+                                <div class="block-price-start">
+                                    <h6 id="block-sale">33.490.000đ</h6>
+                                    <h6 id="block-sale-time">1 ngày 20:30:04</h6>
+                                </div>
+                            </div>
+                            <div class="five-start">
+                                4.6<i id="star-yellow" class="fa-solid fa-star"></i>&nbsp;&nbsp;(182)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="carousel-installer-sub-block-main">
+                    <div class="carousel-installer-sub-block">
+                        <div class="block-img-main">
+                            <img id="block-img" src="IMG/box-laptop.jpg">
+                        </div>
+                        <div class="block-product-main">
+
+                            <div class="block-product">
+                                <a id="block-name_product">Laptop Apple MacBook Air M1 2020 256GB/7-core</a>
+                            </div>
+                            <div class="block_configuration">
+                                <button class="ram">
+                                    Ram 16 gb
+                                </button>
+                                <button class="ram">
+                                    Ssd 256 gb
+                                </button>
+                            </div>
+                            <!-- Giá thành -->
+                            <div class="block-price-main">
+                                <div class="block-price-progress">
+                                    <p id="block-progress">21.790.000đ</p>
+                                </div>
+                                <div class="block-price-start">
+                                    <h6 id="block-sale">24.999.474đ</h6>
+                                    <h6 id="block-sale-time">1 ngày 20:30:04</h6>
+                                </div>
+                            </div>
+                            <div class="five-start">
+                                2.7<i id="star-yellow" class="fa-solid fa-star"></i>&nbsp;&nbsp;(54)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="carousel-installer-sub-block-main">
+
+                    <div class="carousel-installer-sub-block">
+                        <div class="block-img-main">
+                            <img id="block-img" src="IMG/box-pc-components.jpg">
+                        </div>
+                        <div class="block-product-main">
+
+                            <div class="block-product">
+                                <a id="block-name_product">Pc-Components</a>
+                            </div>
+
+                            <!-- Giá thành -->
+                            <div class="block-price-main">
+                                <div class="block-price-progress">
+                                    <p id="block-progress">2.490.000 đ</p>
+                                </div>
+                                <div class="block-price-start">
+                                    <h6 id="block-sale">3.590.000 đ</h6>
+                                    <h6 id="block-sale-time">1 ngày 20:30:04</h6>
+                                </div>
+                            </div>
+                            <div class="five-start">
+                                3.2<i id="star-yellow" class="fa-solid fa-star"></i>&nbsp;&nbsp;(91)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 4 -->
+                <div class="carousel-installer-sub-block-main">
+                    <div class="carousel-installer-sub-block">
+                        <div class="block-img-main">
+                            <img id="block-img" src="IMG/box-tablet.jpg">
+                        </div>
+                        <div class="block-product-main">
+
+                            <div class="block-product">
+                                <a id="block-name_product">Galaxy Tab S7(6+128Gb)</a>
+                            </div>
+
+                            <!-- Giá thành -->
+                            <div class="block-price-main">
+                                <div class="block-price-progress">
+                                    <p id="block-progress">8.790.000đ</p>
+                                </div>
+                                <div class="block-price-start">
+                                    <h6 id="block-sale">18.990.000000</h6>
+                                    <h6 id="block-sale-time">1 ngày 20:30:04</h6>
+                                </div>
+                            </div>
+                            <div class="five-start">
+                                3.8<i id="star-yellow" class="fa-solid fa-star"></i>&nbsp;&nbsp;(80)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BANNER MAIN 3 SALE -->
+    <div class="banner_main_3_interface">
+        <div class="banner_main_3">
+            <img class="img_main_3" src="./IMG/banner_main_3.png">
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <!-- <div class="footer_interface">
+        <div class="footer">
+            FOOTER
+        </div>
+    </div> -->
+    <script src="/docs/5.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-light">
+
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block">
+                <span>Kết nối cùng với chúng tôi:</span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <div>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>Đồ Án
+                        </h6>
+                        <p>
+                            Bài tập lớn môn Thiết kế Web HK2 (2021-2022)
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Nội Dung
+                        </h6>
+                        <p>
+                            <a href="./Main_Web.html" class="text-decoration-none text-reset">Trang Chủ</a>
+                        </p>
+                        <p>
+                            <a href="./product_introduction_page.html" class="text-decoration-none text-reset">Danh mục
+                                sản phẩm</a>
+                        </p>
+                        <p>
+                            <a href="./form.html" class="text-decoration-none text-reset">Sign Up</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Members
+                        </h6>
+                        <p>
+                            <a href="#" class="text-decoration-none text-reset">Hoàng Văn Chính</a>
+                        </p>
+                        <p>
+                            <a href="#" class="text-decoration-none text-reset">Nguyễn Trần Anh Thư</a>
+                        </p>
+                        <p>
+                            <a href="#" class="text-decoration-none text-reset">Tất Huy Quyền</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Contact
+                        </h6>
+                        <p><i class="fas fa-home me-3"></i>Tân Phú, Hồ Chí Minh, Việt Nam</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            Thegioidienthoai@gmail.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> 1800 937 584</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" id="Daihoc">
+            Trường Đại học Công nghiệp Thực Phẩm TP.HCM:
+            <a class="text-reset fw-bold" href="https://hufi.edu.vn">hufi.edu.vn</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+</body>
+
+</html>

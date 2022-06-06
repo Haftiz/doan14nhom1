@@ -1,0 +1,129 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            font-size: 24px;
+            font-family: sans-serif;
+        }
+
+        .main-body {
+            width: 1390px;
+        }
+
+        .header-interface {
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            width: auto;
+            height: 56px;
+            background-color: rgb(206, 22, 22);
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            height: 56px;
+            width: 1200px;
+            background-color: rgb(206, 22, 22);
+        }
+
+        /* HEADER - logo*/
+
+        .logo {
+            font-weight: bold;
+            font-size: 24px;
+            color: aliceblue;
+        }
+
+        /* HEADER - search*/
+
+        .search-main {
+            display: flex;
+            align-items: center;
+            width: 500px;
+
+        }
+
+        #search-bar {
+            width: 450px;
+            height: 38px;
+        }
+
+        #search-button {
+            width: 50px;
+            height: 38px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+        }
+
+        #search-icon {
+            font-size: 20px;
+            color: white;
+            cursor: pointer;
+        }
+
+        /* HEADER - menu*/
+
+
+        .menu-cartshop {
+            width: 300px;
+            padding-top: 6px;
+        }
+
+        .menu-icons {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        #menu-icons-sub {
+            font-size: 20px;
+            color: white;
+        }
+
+        .menu-caption {
+            display: flex;
+            text-align: center;
+            justify-content: space-between;
+            height: 30px;
+        }
+
+        .menu-caption ul {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            width: 300px;
+            padding-left: 0px;
+        }
+
+        .menu-caption ul li {
+            display: flex;
+            list-style-type: none;
+        }
+
+        .menu-caption ul li a {
+            text-decoration: none;
+            font-size: 14px;
+            color: white;
+        }
+
+        .main-interface {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        #ct{
+            display: flex;
+            margin-left: 20px;
+        }
+        @media (min-width: 1025px) {
+            .h-custom {
+                height: 100vh !important;
+            }
+        }

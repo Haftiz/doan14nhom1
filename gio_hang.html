@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/f67197206b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./CSS/giohang.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <title>The gioi dien thoai</title>
+
+</head>
+<body>
+    <div class="main-body">
+        <div class="header-interface">
+            <div class="header">
+                <div class="logo">Thegioidienthoai</div>
+                <div class="search-main">
+                    <input id="search-bar" type="text" placeholder="Nhập tên điện thoại, máy tính,phụ kiện,...cần tìm">
+                    <div id="search-button">
+                        <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                <div class="menu-cartshop">
+                    <div class="menu-icons">
+                        <i id="menu-icons-sub" class="fa-solid fa-clipboard-list"></i>
+                        <i id="menu-icons-sub" class="fa-solid fa-cloud-moon-rain"></i>
+                        <i id="menu-icons-sub" class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <div class="menu-caption">
+                        <ul>
+                            <li><a href="./gioithieu.html">Thông tin</a></li>
+                            <li><a href="./Main_Web.html">Trang chủ</a></li>
+                            <li><a href="./gio_hang.html">Giỏ hàng</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="h-100 h-custom">
+            <div class="container h-100 py-5">
+                <div class="row d-flex justify-content-center align-items-center h-100">
+                    <div class="col">
+
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Loại bỏ</th>
+                                        <th scope="images">Hình ảnh</th>
+                                        <th scope="col">Sản phẩm</th>
+                                        <th scope="col">Số lượng</th>
+                                        <th scope="col">Giá bán</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="align-middle">
+                                            <i id="ct" class="fa-solid fa-xmark"></i>
+                                        </td>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <img src="./IMG/13pro_green.jpg" class="img-fluid rounded-3"
+                                                    style="width: 120px;">
+                                            </div>
+                                        </td>
+                                        <td class="align-middle">
+                                            <p class="mb-0" style="font-weight: 500;">Iphone 13 Pro Max 128GB</p>
+                                        </td>
+                                        <td class="align-middle">
+                                            <div class="d-flex flex-row">
+                                                <input id="form1" min="0" name="quantity" value="1" type="number"
+                                                    class="form-control form-control-sm" style="width: 50px;" />
+                                            </div>
+                                        </td>
+                                        <td class="align-middle">
+                                            <p class="mb-0" style="font-weight: 500;">30.490.000đ</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="align-middle border-bottom-1">
+                                            <i id="ct" class="fa-solid fa-xmark"></i>
+                                        </td>
+                                        <td class="align-middle border-bottom-1">
+                                            <div class="d-flex align-items-center">
+                                                <img src="./IMG/box-tablet.jpg" class="img-fluid rounded-3"
+                                                    style="width: 120px;">
+                                            </div>
+                                        </td>
+                                        <td class="align-middle border-bottom-1">
+                                            <p class="mb-0" style="font-weight: 500;">Galaxy Tab S7(6+128GB)</p>
+                                        </td>
+                                        <td class="align-middle border-bottom-1">
+                                            <div class="d-flex flex-row">
+                                                <input id="form1" min="0" name="quantity" value="1" type="number"
+                                                    class="form-control form-control-sm" style="width: 50px;" />
+                                            </div>
+                                        </td>
+                                        <td class="align-middle border-bottom-1">
+                                            <p class="mb-0" style="font-weight: 500;">8.790.000đ</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="align-middle border-bottom-1">
+                                            <i id="ct" class="fa-solid fa-xmark"></i>
+                                        </td>
+                                        <td class="align-middle border-bottom-1">
+                                            <div class="d-flex align-items-center">
+                                                <img src="./IMG/box-apple-watch.jpg" class="img-fluid rounded-3"
+                                                    style="width: 120px;">
+                                            </div>
+                                        </td>
+                                        <td class="align-middle border-bottom-1">
+                                            <p class="mb-0" style="font-weight: 500;">Apple Watch Series 3</p>
+                                        </td>
+                                        <td class="align-middle border-bottom-1">
+                                            <div class="d-flex flex-row">
+                                                <input id="form1" min="0" name="quantity" value="1" type="number"
+                                                    class="form-control form-control-sm" style="width: 50px;" />
+                                            </div>
+                                        </td>
+                                        <td class="align-middle border-bottom-1">
+                                            <p class="mb-0" style="font-weight: 500;">10.890.000đ</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="card shadow-2-strong mb-5 mb-lg-0" style="border-radius: 16px;">
+                            <div class="card-body p-4">
+
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-4 col-xl-3 mb-4 mb-md-0">
+                                        <form>
+                                            <div class="d-flex flex-row pb-3">
+                                                <div class="d-flex align-items-center pe-2">
+                                                    <input class="form-check-input" type="radio" name="radioNoLabel"
+                                                        id="radioNoLabel1v" value="" aria-label="..." checked />
+                                                </div>
+                                                <div class="rounded border w-100 p-3">
+                                                    <p class="d-flex align-items-center mb-0">
+                                                        <i class="fab fa-cc-mastercard fa-2x text-dark pe-2"></i>Credit
+                                                        Card
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-row pb-3">
+                                                <div class="d-flex align-items-center pe-2">
+                                                    <input class="form-check-input" type="radio" name="radioNoLabel"
+                                                        id="radioNoLabel2v" value="" aria-label="..." />
+                                                </div>
+                                                <div class="rounded border w-100 p-3">
+                                                    <p class="d-flex align-items-center mb-0">
+                                                        <i class="fab fa-cc-visa fa-2x fa-lg text-dark pe-2"></i>Debit
+                                                        Card
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-row">
+                                                <div class="d-flex align-items-center pe-2">
+                                                    <input class="form-check-input" type="radio" name="radioNoLabel"
+                                                        id="radioNoLabel3v" value="" aria-label="..." />
+                                                </div>
+                                                <div class="rounded border w-100 p-3">
+                                                    <p class="d-flex align-items-center mb-0">
+                                                        <i
+                                                            class="fab fa-cc-paypal fa-2x fa-lg text-dark pe-2"></i>PayPal
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4 col-xl-6">
+                                        <div class="row">
+                                            <div class="col-12 col-xl-6">
+                                                <div class="form-outline mb-4 mb-xl-5">
+                                                    <input type="text" id="typeName"
+                                                        class="form-control form-control-lg" siez="17"
+                                                        placeholder="Nguyen Van A" />
+                                                    <label class="form-label" for="typeName">Tên</label>
+                                                </div>
+
+                                                <div class="form-outline mb-4 mb-xl-5">
+                                                    <input type="text" id="typeExp" class="form-control form-control-lg"
+                                                        placeholder="MM/YY" size="7" id="exp" minlength="7"
+                                                        maxlength="7" />
+                                                    <label class="form-label" for="typeExp">Hạn sử dụng</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-xl-6">
+                                                <div class="form-outline mb-4 mb-xl-5">
+                                                    <input type="text" id="typeText"
+                                                        class="form-control form-control-lg" size="17"
+                                                        placeholder="9420 1234 5678 9631" minlength="19"
+                                                        maxlength="19" />
+                                                    <label class="form-label" for="typeText">Số thẻ</label>
+                                                </div>
+
+                                                <div class="form-outline mb-4 mb-xl-5">
+                                                    <input type="password" id="typeText"
+                                                        class="form-control form-control-lg"
+                                                        placeholder="&#9679;&#9679;&#9679;" size="1" minlength="3"
+                                                        maxlength="3" />
+                                                    <label class="form-label" for="typeText">Cvv</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-xl-3">
+                                        <div class="d-flex justify-content-between" style="font-weight: 500;">
+                                            <p class="mb-2">Tạm tính</p>
+                                            <p class="mb-2">46.590.000đ</p>
+                                        </div>
+
+                                        <div class="d-flex justify-content-between" style="font-weight: 500;">
+                                            <p class="mb-0">Vận chuyển</p>
+                                            <p class="mb-0">25.000đ</p>
+                                        </div>
+
+                                        <hr class="my-4">
+
+                                        <div class="d-flex justify-content-between mb-4" style="font-weight: 500;">
+                                            <p class="mb-2">Tổng cộng (đã bao gồm thuế)</p>
+                                            <p class="mb-2">46.615.000đ</p>
+                                        </div>
+
+                                        <button type="button" class="btn btn-primary btn-block btn-lg">
+                                            <div class="d-flex justify-content-between">
+                                                <span>Thành tiền&nbsp;</span>
+                                                <span>46.615.000đ</span>
+                                            </div>
+                                        </button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+  <footer class="text-center text-lg-start bg-light">
+
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Kết nối cùng với chúng tôi:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="./gio_hang.html" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="./gio_hang.html" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="./gio_hang.html" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="./gio_hang.html" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="./gio_hang.html" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="./gio_hang.html" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Đồ Án
+            </h6>
+            <p>
+              Bài tập lớn môn Thiết kế Web HK2 (2021-2022)
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Nội Dung
+            </h6>
+            <p>
+              <a href="Main_Web.html" class="text-decoration-none text-reset">Trang Chủ</a>
+            </p>
+            <p>
+              <a href="./product_introduction_page.html" class="text-decoration-none text-reset">Danh mục sản phẩm</a>
+            </p>
+            <p>
+              <a href="./form.html" class="text-decoration-none text-reset">Sign Up</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Members
+            </h6>
+            <p>
+              <a href="#" class="text-decoration-none text-reset">Hoàng Văn Chính</a>
+            </p>
+            <p>
+              <a href="#" class="text-decoration-none text-reset">Nguyễn Trần Anh Thư</a>
+            </p>
+            <p>
+              <a href="#" class="text-decoration-none text-reset">Tất Huy Quyền</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Contact
+            </h6>
+            <p><i class="fas fa-home me-3"></i>Tân Phú, Hồ Chí Minh, Việt Nam</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              Thegioidienthoai@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> 1800 937 584</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" id="Daihoc">
+      Trường Đại học Công nghiệp Thực Phẩm TP.HCM:
+      <a class="text-reset fw-bold" href="https://hufi.edu.vn">hufi.edu.vn</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+    </div>
+</body>
+
+</html>

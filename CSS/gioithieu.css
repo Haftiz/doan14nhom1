@@ -1,0 +1,183 @@
+body {
+    background-image: url(../IMG/background-form-edit.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-title {
+    text-align: center;
+
+}
+
+#introduct,
+.featurette-heading,
+.lead,
+.col-lg-4 {
+    color: white;
+}
+.container-fluid a{
+    font-size: 30px;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+@media screen and (max-width: 600px) {
+    table#cart tbody td .form-control {
+        width: 20%;
+        display: inline !important;
+    }
+
+    .actions .btn {
+        width: 36%;
+        margin: 1.5em 0;
+    }
+
+    .actions .btn-info {
+        float: left;
+    }
+
+    .actions .btn-danger {
+        float: right;
+    }
+
+    table#cart thead {
+        display: none;
+    }
+
+    table#cart tbody td {
+        display: block;
+        padding: .6rem;
+        min-width: 320px;
+    }
+
+    table#cart tbody tr td:first-child {
+        background: #333;
+        color: #fff;
+    }
+
+    table#cart tbody td:before {
+        content: attr(data-th);
+        font-weight: bold;
+        display: inline-block;
+        width: 8rem;
+    }
+
+    table#cart tfoot td {
+        display: block;
+    }
+
+    table#cart tfoot td .btn {
+        display: block;
+    }
+}
+
+.img-responsive {
+    max-width: 115px;
+    height: auto;
+}
+
+.head {
+    border-bottom: 1px solid rgb(131, 131, 131);
+    box-shadow: 0 0 4px 0;
+}
+
+.navbar-brand {
+    margin-left: 30px;
+    margin-right: 150px;
+    font-size: 27px;
+    font-family: 'Lobster', cursive;
+    font-size: 27px;
+    
+}
+
+ul {
+    margin: auto;
+}
+
+li {
+    font-size: 22px;
+    margin-right: 7px;
+}
+
+.d-flex input {
+    border-radius: 12px;
+}
+
+.d-flex button {
+    color: black;
+    border-color: rgb(185, 185, 185);
+    border-radius: 12px;
+}
+
+.d-flex button:hover {
+    color: white;
+    background-color: lightseagreen;
+}
+
+.row-md {
+    margin-left: 20%;
+}
+
+.row {
+    margin-bottom: 25px;
+
+}
+
+.body {
+    background-color: red;
+}
+
+.avatar {
+    text-align: center;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+#anhthq {
+    width: 200px;
+    height: 200px;
+}
+
+#AnhGioiThieu1 {
+    width: 600px;
+    height: 400px;
+}
+
+#AnhGioiThieu2 {
+    width: 634px;
+    height: 500px;
+}
+
+#AnhGioiThieu3 {
+    width: 600px;
+    height: 400px;
+}
+
+#Kinhchaocacban {
+    margin-top: 120px;
+}
+
+#Sanphamkinhdoanh {
+    margin-top: 160px;
+}
+
+#Uudiemdichvu {
+    margin-top: 120px;
+}
+
+#Daihoc {
+    background-color: rgba(0, 0, 0, 0.05);
+}

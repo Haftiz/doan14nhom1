@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* HEADER */
+.header-interface {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: auto;
+    height: 56px;
+    background-color: rgb(206, 22, 22);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    width: 1200px;
+    background-color: rgb(206, 22, 22);
+}
+
+/* HEADER - logo*/
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: aliceblue;
+}
+
+/* HEADER - search*/
+
+.search-main {
+    display: flex;
+    align-items: center;
+    width: 500px;
+
+}
+
+#search-bar {
+    width: 450px;
+    height: 38px;
+}
+
+#search-button {
+    width: 50px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#search-icon {
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+/* HEADER - menu*/
+
+
+.menu-cartshop {
+    width: 300px;
+    padding-top: 6px;
+}
+
+.menu-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu-icons-sub {
+    font-size: 20px;
+    color: white;
+}
+
+.menu-caption {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.menu-caption ul {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 300px;
+    padding-left: 0px;
+}
+
+.menu-caption ul li {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu-caption ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+
+/* PRODUCT MENU (Menu sản phẩm) */
+.product-menu-interface {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: auto;
+    height: 36px;
+    background-color: black;
+}
+
+ion-icon {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.product-menu {
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    background-color: black;
+}
+
+.product-menu ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 30px;
+    width: auto;
+    padding-left: 0;
+}
+
+.product-menu ul li {
+    list-style-type: none;
+    width: 120px;
+
+
+}
+
+.product-menu ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.product-menu ul li a:hover {
+    color: grey;
+}
+
+/* CAROUSEL-INSTALLER-INTERFACE */
+.carousel-installer-interface {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.carousel-installer {
+    width: 1200px;
+    height: 100%;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 10px;
+}
+
+.carousel-installer-header {
+    margin-top: 20px;
+    height: 40px;
+}
+
+#carousel-installer-document {
+    text-transform: uppercase;
+    color: red;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.carousel-installer-sub {
+    height: 530px;
+    display: flex;
+    justify-content: space-between;
+    background-color: pink;
+    padding: 5px;
+}
+
+.carousel-installer-sub-block {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 530px;
+}
+
+.block-img-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 234px;
+}
+
+#block-img {
+    width: 200px;
+    height: 190px;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+
+#block-img:hover {
+    width: 210px;
+    height: 200px;
+    transition: all 0.3s;
+}
+
+.carousel-installler-mark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 500px;
+}
+
+.carousel-installer-sub-block-main {
+    width: 250px;
+    height: 480px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.carousel-installer-sub-block-main:hover {
+    border: 1px solid rgb(179, 176, 176);
+}
+
+.block-product {
+    margin-left: 7px;
+}
+
+#block-name_product {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.block-product #block-name_product:hover {
+    color: rgb(23, 76, 156);
+    cursor: pointer;
+}
+
+
+.ram {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(212, 212, 212);
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 3px;
+    margin-left: 7px;
+    background-color: white;
+}
+
+.block-price-main {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    line-height: 50px;
+    margin: 7px;
+}
+
+.block-price-progress {
+    display: flex;
+    line-height: 30px;
+    align-items: center;
+
+}
+
+#block-progress {
+    text-align: center;
+    width: 100px;
+    line-height: 30px;
+    height: 30px;
+    background-color: red;
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+
+
+#block-sale {
+    color: rgba(148, 148, 142, 0.822);
+    text-decoration: line-through;
+    font-size: 20px;
+}
+
+/* SAVE PRICE */
+.save {
+    display: flex;
+    align-items: center;
+    width: 160px;
+    height: 30px;
+    line-height: 30px;
+    background-color: red;
+    font-family: "roboto";
+    font-size: 23px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 7px;
+    border-radius: 7px;
+}
+#block-sale-time{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+/* FIVE_START */
+
+.five-start {
+    margin-top: 10px;
+    margin-left: 7px;
+
+}
+
+#star-yellow {
+    color: rgb(201, 171, 37);
+
+}
+.block-product a{
+    text-decoration: none;
+    color: black;
+}
+/* //// */
+@media (max-width:1200px){
+    .header{
+        width:100%;
+    }
+    .logo{
+        display: none;
+    }
+    #search-bar{
+width:200px;
+    }
+    .carousel-installer-sub{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carousel-installer-sub-block{
+        display: flex;
+        flex-direction: row;
+        height:200px;
+width: 100%;
+    }
+    .carousel-installler-mark{
+        height:420px;
+        width: 100%;
+    }
+    .carousel-installer-sub-block-main{
+        height:320px;
+ width: 100%;
+
+    }
+    .block-img-main{
+        margin-bottom: 550px;
+    }
+    footer{
+        margin-top: 00px;
+    }
+    .carousel-installer-sub{
+        height:100%;
+    }
+}
